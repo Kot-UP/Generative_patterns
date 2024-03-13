@@ -42,8 +42,8 @@ public class Person {
         return surname;
     }
 
-    public int getAge() {
-        return age;
+    public OptionalInt getAge() {
+        return OptionalInt.of(age);
     }
     public String getAddress()  {
         return null;
